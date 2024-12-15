@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="namelogo"><img class="logo" src="assets/img/Logo.png" alt="mood">MoodMender</div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="konsultasi.html">Konsultasi</a>
+            <a href="profile.html">Profil</a>
+            <a  href="#">Tentang Kami</a>
+            <a class="login" href="sign_in.html">Sign in</a>
+        </nav>
+        <div class="dropdown__wrapper hide dropdown__wrapper--fade-in none">
+            <div class="dropdown__group">
+                <div class="user-name">Joe Doe</div>
+                <div class="email">joe.doe@atheros.ai</div>
+            </div>
+            <hr class="divider">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="assets/img/profile-1.png" alt="Profile"><a href="profile.html">My Profile</a> 
+                    </li>
+                </ul>
+                <hr class="divider">
+                <ul>
+                    <li>
+                        <img src="assets/img/tutorials.svg" alt="Tutorials"> <a href="">Tutorials</a> 
+                    </li>
+                    <li>
+                        <img src="assets/img/help.svg" alt="Help"><a href="">Help Center</a> 
+                    </li>
+                </ul>
+                <hr class="divider">
+                <ul>
+                    <li  style="color: #E3452F;">
+                        <img src="assets/img/logout.svg"  alt="Log Out"><a href="">Log out</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="articles">
+            <h2>Tips dan Artikel Terkait: Daftar Artikel tentang Kesehatan Mental</h2>
+            <div class="article">
+                <h3>Mengatasi Stres di Tempat Kerja: Strategi Efektif</h3>
+                <p>Dr Amanda Lee</p>
+                <p>Artikel ini membahas berbagai strategi yang dapat membantu Anda mengatasi stres di tempat kerja...</p>
+            </div>
+            <div class="article">
+                <h3>Panduan Mindfulness untuk Mahasiswa</h3>
+                <p>Prof John Smith</p>
+                <p>Panduan ini menjelaskan praktik mindfulness dan bagaimana mahasiswa dapat menerapkannya...</p>
+            </div>
+            <div class="article">
+                <h3>Mengenali Tanda-tanda Depresi dan Bagaimana Mengatasinya</h3>
+                <p>Dr Sarah Thompson</p>
+                <p>Artikel ini membantu Anda mengenali tanda-tanda depresi pada diri sendiri dan orang lain...</p>
+            </div>
+        </section>
+        
+        <section class="consultation">
+            <div class="chat-header">
+                <div class="bot-icon">🤖</div>
+                <div class="bot-status">
+                    <p>ConsulAI</p>
+                    <p class="online-status">Online</p>
+                </div>
+            </div>
+            <div class="chat-window">
+                <div class="message bot-message">Hallo, apakah ada yang bisa saya bantu?</div>
+            </div>
+            <div class="message-input">
+                <input type="text" placeholder="Write your message">
+                <button>Kirim</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Contact us</a>
+        </div>
+        <p>Email: support@moodmander.com</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

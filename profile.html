@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="namelogo"><img class="logo" src="assets/img/Logo.png" alt="mood">MoodMender</div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="konsultasi.html">Konsultasi</a>
+            <a href="profile.html">Profil</a>
+            <a  href="#">Tentang Kami</a>
+            <a class="login" href="sign_in.html">Sign in</a>
+        </nav>
+        <div class="dropdown__wrapper hide dropdown__wrapper--fade-in none">
+            <div class="dropdown__group">
+                <div class="user-name">Joe Doe</div>
+                <div class="email">joe.doe@atheros.ai</div>
+            </div>
+            <hr class="divider">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="assets/img/profile-1.png" alt="Profile"><a href="profile.html">My Profile</a> 
+                    </li>
+                </ul>
+                <hr class="divider">
+                <ul>
+                    <li>
+                        <img src="assets/img/tutorials.svg" alt="Tutorials"> <a href="">Tutorials</a> 
+                    </li>
+                    <li>
+                        <img src="assets/img/help.svg" alt="Help"><a href="">Help Center</a> 
+                    </li>
+                </ul>
+                <hr class="divider">
+                <ul>
+                    <li  style="color: #E3452F;">
+                        <img src="assets/img/logout.svg"  alt="Log Out"><a href="">Log out</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <div class="main-profile">
+    <section class="profile">
+        <div class="profile-header">
+            <img src="assets/img/profile-1.png" alt="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" class="profile-pic">
+            <div class="profile-info">
+                <h2>Alexa Rawles</h2>
+                <p>alexarawles@gmail.com</p>
+            </div>
+            <button class="edit-button">Edit</button>
+        </div>
+        <div class="profile-details">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" placeholder="Your First Name">
+            </div>
+            <div class="form-group">
+                <label for="nick-name">Nick Name</label>
+                <input type="text" id="nick-name" placeholder="Your First Name">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" placeholder="Your First Name">
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <input type="text" id="country" placeholder="Your First Name">
+            </div>
+            <div class="form-group">
+                <label for="language">Language</label>
+                <input type="text" id="language" placeholder="Your First Name">
+            </div>
+            <div class="form-group">
+                <label for="time-zone">Time Zone</label>
+                <input type="text" id="time-zone" placeholder="Your First Name">
+            </div>
+        </div>
+        <div class="email-section">
+            <h3>My email Address</h3>
+            <div class="email-address">
+                <img src="assets/img/email-icon.png" alt="Email Icon">
+                <div>
+                    <p>alexarawles@gmail.com</p>
+                    <p>1 month ago</p>
+                </div>
+            </div>
+            <button class="add-email-button">+Add Email Address</button>
+        </div>
+    </section>
+  </div>
+        
+ 
+    <footer>
+        <div class="footer-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Contact us</a>
+        </div>
+        <p>Email: support@moodmender.com</p>
+    </footer>
+</body>
+</html>
